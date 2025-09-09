@@ -1,4 +1,3 @@
-//Main.java
 public class Main{
     public static void main(String[] args){
         Library l=new Library(7);
@@ -16,4 +15,5 @@ public class Main{
         System.out.println(l.check_availability(46));
 
     }
+
 }

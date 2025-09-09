@@ -1,4 +1,3 @@
-//Lib_book.java
 public class Lib_book extends A_book
             implements Issueable {
                 public boolean available=true;
@@ -18,5 +17,6 @@ public class Lib_book extends A_book
         public boolean isAvailable(){
             return available;
         }
+
 
       }

@@ -16,51 +16,47 @@ It allows users to:
    git clone https://github.com/nidhishsheka/library-management-system.git
    cd library-management-system
    
-2. Make sure Java is installed
+ 2. Make sure Java is installed
 
    Check your version:
-   ```bash
-   java -version
+   
+       java -version
 
- You should have Java 8 or later.
+   You should have Java 8 or later.
 
 3. Compile the project:
-   ```bash
-   javac *.java
-
+   
+       javac *.java
 
 # Usage
 
-Run the program:
-      ```bash
-      
+ Run the program:
+         
       java Main
 
-
-
-Expected output:
+ Expected output:
 
       true
       false
       true
 
-This shows:
+ This shows:
 
-The book is initially available (true)
+ The book is initially available (true)
 
-After issuing, it becomes unavailable (false)
+ After issuing, it becomes unavailable (false)
 
-After returning, it becomes available again (true)
+ After returning, it becomes available again (true)
 
 
 # Running Tests
     
-    mvn test
+      mvn test
 
 OR
 
-Open LibraryTest.java in your IDE (IntelliJ, Eclipse, or VS Code)
-and run the JUnit tests.
+ Open ```LibraryTest.java``` in your IDE (IntelliJ, Eclipse, or VS Code)
+ and run the JUnit tests.
 
 
 # Project Structure
@@ -76,5 +72,5 @@ and run the JUnit tests.
 
 # Author
 
-nidhishsheka
+ nidhishsheka
 
